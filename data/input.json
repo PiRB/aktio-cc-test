@@ -1,0 +1,179 @@
+{
+  "emission_categories": [
+    { "id": 1, "name": "énergie" },
+    { "id": 2, "name": "transports" },
+    { "id": 3, "name": "achats" },
+    { "id": 4, "name": "déchets" },
+    { "id": 5, "name": "produits et services" }
+  ],
+  "emission_factors": [
+    {
+      "id": 1,
+      "description": "mix électrique moyen",
+      "emission_category_id": 1,
+      "unit_1": "kWh",
+      "unit_2": null,
+      "value_co2": 0.0571,
+      "value_ch4": null,
+      "value_n2o": null,
+      "value_co2b": null,
+      "value_ch4b": null
+    },
+    {
+      "id": 2,
+      "description": "diesel routier",
+      "emission_category_id": 2,
+      "unit_1": "tonne",
+      "unit_2": "km",
+      "value_co2": 0.124,
+      "value_ch4": null,
+      "value_n2o": null,
+      "value_co2b": null,
+      "value_ch4b": null
+    },
+    {
+      "id": 3,
+      "description": "TGV",
+      "emission_category_id": 2,
+      "unit_1": "passager",
+      "unit_2": "km",
+      "value_co2": 0.00174,
+      "value_ch4": null,
+      "value_n2o": null,
+      "value_co2b": null,
+      "value_ch4b": null
+    },
+    {
+      "id": 4,
+      "description": "ordinateur portable",
+      "emission_category_id": 3,
+      "unit_1": "unité",
+      "unit_2": null,
+      "value_co2": 156.0,
+      "value_ch4": null,
+      "value_n2o": null,
+      "value_co2b": null,
+      "value_ch4b": null
+    },
+    {
+      "id": 5,
+      "description": "carton collecté par un prestataire privé",
+      "emission_category_id": 4,
+      "unit_1": "tonne",
+      "unit_2": null,
+      "value_co2": 33.3,
+      "value_ch4": 4.57,
+      "value_n2o": 0.00373,
+      "value_co2b": 170.0,
+      "value_ch4b": 0.0
+    },
+    {
+      "id": 6,
+      "description": "ordures ménagères collectées par un prestataire privé",
+      "emission_category_id": 4,
+      "unit_1": "tonne",
+      "unit_2": null,
+      "value_co2": 351.0,
+      "value_ch4": 0.0,
+      "value_n2o": 10.6,
+      "value_co2b": 444.0,
+      "value_ch4b": 0.0
+    }
+  ],
+  "activity_data": [
+    {
+      "id": 1,
+      "emission_factor_id": 1,
+      "site_id": 1,
+      "quantity_1": 5500,
+      "quantity_2": null
+    },
+    {
+      "id": 2,
+      "emission_factor_id": 2,
+      "site_id": 1,
+      "quantity_1": 1000,
+      "quantity_2": 6000
+    },
+    {
+      "id": 3,
+      "emission_factor_id": 3,
+      "site_id": 1,
+      "quantity_1": 4,
+      "quantity_2": 2000
+    },
+    {
+      "id": 4,
+      "emission_factor_id": 4,
+      "site_id": 1,
+      "quantity_1": 20,
+      "quantity_2": null
+    },
+    {
+      "id": 5,
+      "emission_factor_id": 5,
+      "site_id": 1,
+      "quantity_1": 2,
+      "quantity_2": null
+    },
+    {
+      "id": 6,
+      "emission_factor_id": 6,
+      "site_id": 1,
+      "quantity_1": 1.4,
+      "quantity_2": null
+    },
+    {
+      "id": 7,
+      "emission_factor_id": 1,
+      "site_id": 2,
+      "quantity_1": 3000,
+      "quantity_2": null
+    },
+    {
+      "id": 8,
+      "emission_factor_id": 2,
+      "site_id": 2,
+      "quantity_1": 500,
+      "quantity_2": 3000
+    },
+    {
+      "id": 9,
+      "emission_factor_id": 3,
+      "site_id": 2,
+      "quantity_1": 2,
+      "quantity_2": 500
+    },
+    {
+      "id": 10,
+      "emission_factor_id": 4,
+      "site_id": 2,
+      "quantity_1": 30,
+      "quantity_2": null
+    },
+    {
+      "id": 11,
+      "emission_factor_id": 5,
+      "site_id": 2,
+      "quantity_1": 0.3,
+      "quantity_2": null
+    },
+    {
+      "id": 12,
+      "emission_factor_id": 6,
+      "site_id": 2,
+      "quantity_1": 0.1,
+      "quantity_2": null
+    }
+  ],
+  "sites": [
+    {
+      "id": 1,
+      "name": "entrepôt - Limoges"
+    },
+   {
+      "id": 2,
+      "name": "entrepôt - Poitiers"
+    }
+  ]
+}
